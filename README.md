@@ -40,7 +40,8 @@ To run this project, you will need:
 
 1.  **Clone the repository**: Use Git to clone the project to your local machine:
     ```bash
-    git clone [https://github.com/shivani-ai-ml/ExamSystem.git](https://github.com/shivani-ai-ml/ExamSystem.git)
+    git clone https://github.com/shivani-ai-ml/ExamSystem.git
+cd ExamSystem
     ```
 2.  **Open in Eclipse**:
     * Navigate to **File > Open Projects from File System...**.
