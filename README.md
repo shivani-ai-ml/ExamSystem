@@ -17,7 +17,7 @@ This project demonstrates a simple desktop-based exam system where users log in 
 ## 🖼️ Screenshots
 
 ### 🔑 Login Page
-![Login Page](/ExamSystem/src/screenshots/access_denied.png)
+![Login Page](/Users/shivanichaudhary/Desktop/help /medium_Work/Medium1stProject_JAVA/login_page.png)
 
 ### 📝 Exam Page
 ![Exam Page](screenshots/Exam_Page.png)
