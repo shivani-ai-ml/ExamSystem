@@ -1,41 +1,72 @@
-# ExamSystem 🎓
+Here is a more professional and detailed README for your project. I've restructured the content, enhanced the descriptions, and added key sections that are standard for professional software projects.
 
-A **Java Exam System** with **Login Authentication** built using **Swing**.  
-This project demonstrates a simple desktop-based exam system where users log in and attempt multiple-choice questions.
+-----
 
----
+# **ExamSystem** 🎓
 
-## 🚀 Features
-- 🔐 **Login Authentication** (with limited attempts)
-- ❌ **Access Block** after 3 failed login attempts
-- 📝 **Multiple-choice exam**
-- 📊 **Final score display**
-- ⚠️ Error messages with popups for invalid inputs
+### **A Java-based Exam System with Login Authentication**
 
----
+This project is a simple, desktop-based multiple-choice exam system built using **Java Swing** for the graphical user interface. It provides a straightforward **login authentication mechanism** and a **user-friendly interface** for taking an exam. The application is designed to be a clear demonstration of core Java programming concepts, including GUI development, event handling, and basic user authentication logic.
 
-## 🖼️ Screenshots
+-----
 
-### 🔑 Login Page
-![Login_Page.png](<img width="411" height="230" alt="login_page" src="https://github.com/user-attachments/assets/04c1b25a-d74d-49f1-9ee2-470ff2c4323e" />
-)
+## **Key Features** ✨
 
-### 📝 Exam Page
-![Exam_Page.png](<img width="565" height="331" alt="exam_page" src="https://github.com/user-attachments/assets/89079f02-7a3b-44f7-8afd-296db71a0a6e" />
-)
+  * [cite\_start]**User Authentication**: The system includes a robust login page with credential validation[cite: 14, 17]. [cite\_start]It has a built-in security feature that limits login attempts[cite: 18, 19, 20].
+  * [cite\_start]**Access Control**: After three consecutive failed login attempts, the system locks the user out and requires a restart of the application[cite: 18, 19, 20].
+  * [cite\_start]**Multiple-Choice Exam**: The application presents a series of multiple-choice questions[cite: 15].
+  * **Score Display**: Upon completion of the exam, the final score is calculated and displayed to the user in an informative popup.
+  * [cite\_start]**Error Handling**: The system provides clear pop-up messages for invalid login attempts and other errors[cite: 18, 19, 20].
 
-### 📊 Final Score
-![Final_Score.png](<img width="364" height="198" alt="final_score" src="https://github.com/user-attachments/assets/9182589d-3452-4051-9b1e-9fd8845dd4b8" />
-)
+-----
 
-### ❌ Access Denied
-![Access_Denied.png](<img width="334" height="202" alt="access_denied" src="https://github.com/user-attachments/assets/705dbb4e-013c-4a46-b6fe-b24fc8768009" />
-)
+## **Project Structure** 📁
 
----
+The project is organized into logical packages to ensure a clean and maintainable codebase:
 
-## 🛠️ How to Run
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/shivani-ai-ml/ExamSystem.git
+  * [cite\_start]`com.examsystem.auth`: Contains classes related to user authentication, such as the `LoginPage`[cite: 17].
+  * [cite\_start]`com.examsystem.exam`: Manages the exam flow and questions, including the `ExamPage`[cite: 15].
+  * `com.examsystem.ui`: Houses generic UI components and utility classes.
 
+-----
+
+## **Getting Started** 🚀
+
+### **Prerequisites**
+
+To run this project, you will need:
+
+  * [cite\_start]A **Java Development Kit (JDK)**, version **21.0.6** or later[cite: 173].
+  * [cite\_start]An Integrated Development Environment (**IDE**) such as **Eclipse**[cite: 1, 9, 50].
+
+### **How to Run**
+
+1.  **Clone the repository**: Use Git to clone the project to your local machine:
+    ```bash
+    git clone https://github.com/shivani-ai-ml/ExamSystem.git
+    ```
+2.  **Open in Eclipse**:
+      * [cite\_start]Navigate to **File \> Open Projects from File System...**[cite: 14, 56, 113].
+      * Select the root directory of the cloned `ExamSystem` project.
+3.  **Run the application**:
+      * [cite\_start]Locate the main class, typically in the `com.examsystem` package[cite: 13, 54, 109].
+      * Right-click the main class file.
+      * [cite\_start]Select **Run As \> Java Application**[cite: 277].
+
+-----
+
+## **Screenshots** 🖼️
+
+|  **Login Page** |  **Exam Page** |
+| :---: | :---: |
+|  |  |
+| The main entry point for the application, where users enter their credentials. | The interface for the multiple-choice exam. |
+| **Final Score** | **Access Denied** |
+|  |  |
+| The final score pop-up, displayed after completing the exam. | The error message shown after too many failed login attempts. |
+
+-----
+
+## **Contributing** 🤝
+
+Contributions are welcome\! If you find a bug or have an idea for an enhancement, please feel free to open an issue or submit a pull request.
