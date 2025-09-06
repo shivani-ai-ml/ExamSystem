@@ -39,13 +39,21 @@ To run this project, you will need:
 1. **Clone the repository**  
    ```bash
    git clone https://github.com/shivani-ai-ml/ExamSystem.git
-2.  **Open in Eclipse**:
+2.  **Open Eclipse IDE**:
 
-    Navigate to **File > Open Projects from File System...**.
-    Select the root directory of the cloned `ExamSystem` project.
-4.  **Run the application**:
+   Navigate to **File > Open Projects from File System...**.
+ 
+3. A dialog will appear. Click **Directory…**
+    
+4. Browse to the folder where you cloned ExamSystem (the folder containing src/ and com/examsystem).
 
-    Locate the main class, typically in the `com.examsystem` package.
+5.   Select it → click Finish..
+
+7.  **Run the application**:
+
+👉 Now the ExamSystem project will appear in the Project Explorer panel on the left.
+    
+    =>Locate the main class, typically in the `com.examsystem` package.
     Right-click the main class file.
     Select **Run As > Java Application**.
 
