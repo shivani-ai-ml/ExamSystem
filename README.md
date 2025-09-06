@@ -17,7 +17,7 @@ This project demonstrates a simple desktop-based exam system where users log in 
 ## 🖼️ Screenshots
 
 ### 🔑 Login Page
-![Login Page](screenshots/Login_Page.png)
+![Login Page](/ExamSystem/src/screenshots/access_denied.png)
 
 ### 📝 Exam Page
 ![Exam Page](screenshots/Exam_Page.png)
