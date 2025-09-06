@@ -32,7 +32,7 @@ The project is organized into logical packages to maintain a clean codebase:
 To run this project, you will need:
 
 * A **Java Development Kit (JDK)**, version **21.0.6** or later.
-* [cite_start]An Integrated Development Environment (**IDE**) such as **Eclipse**.
+* An Integrated Development Environment (**IDE**) such as **Eclipse**.
 
 ### How to Run
 
@@ -55,7 +55,7 @@ To run this project, you will need:
 | **Login Page** | **Exam Page** |
 | :---: | :---: |
 | ![Login Page](https://github.com/user-attachments/assets/04c1b25a-d74d-49f1-9ee2-470ff2c4323e) | ![Exam Page](https://github.com/user-attachments/assets/89079f02-7a3b-44f7-8afd-296db71a0a6e) |
-| [cite_start]The main entry point where users enter their credentials[cite: 14, 17]. | [cite_start]The interface for the multiple-choice exam[cite: 15]. |
+| The main entry point where users enter their credentials. | The interface for the multiple-choice exam. |
 | **Final Score** | **Access Denied** |
 | ![Final Score](https://github.com/user-attachments/assets/9182589d-3452-4051-9b1e-9fd8845dd4b8) | ![Access Denied](https://github.com/user-attachments/assets/705dbb4e-013c-4a46-b6fe-b24fc8768009) |
-| The final score popup, displayed after completing the exam. | [cite_start]The error message shown after too many failed login attempts[cite: 21]. |
+| The final score popup, displayed after completing the exam. | The error message shown after too many failed login attempts. |
