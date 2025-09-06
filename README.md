@@ -1,4 +1,4 @@
-<img width="411" height="230" alt="login_page" src="https://github.com/user-attachments/assets/187b83cc-3b2a-4f4b-a3cb-fd417b2da25d" /># ExamSystem 🎓
+# ExamSystem 🎓
 
 A **Java Exam System** with **Login Authentication** built using **Swing**.  
 This project demonstrates a simple desktop-based exam system where users log in and attempt multiple-choice questions.
