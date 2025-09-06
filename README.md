@@ -34,15 +34,15 @@ To run this project, you will need:
 * A **Java Development Kit (JDK)**, version **21.0.6** or later.
 * An Integrated Development Environment (**IDE**) such as **Eclipse**.
 
-### How to Run
+### ▶️ How to Run  
 
-1.  **Clone the repository**: Use Git to clone the project to your local machine:
-    ``` git clone [https://github.com/shivani-ai-ml/ExamSystem.git](https://github.com/shivani-ai-ml/ExamSystem.git)
-   ```
-3.  **Open in Eclipse**:
+1. **Clone the repository**  
+   ```bash
+   git clone https://github.com/shivani-ai-ml/ExamSystem.git
+2.  **Open in Eclipse**:
     * Navigate to **File > Open Projects from File System...**.
     * Select the root directory of the cloned `ExamSystem` project.
-4.  **Run the application**:
+3.  **Run the application**:
     * Locate the main class, typically in the `com.examsystem` package.
     * Right-click the main class file.
     * Select **Run As > Java Application**.
